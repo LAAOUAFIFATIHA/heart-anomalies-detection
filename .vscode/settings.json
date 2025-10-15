@@ -1,0 +1,9 @@
+{
+         "files.associations": {
+                  "array": "cpp",
+                  "string": "cpp",
+                  "string_view": "cpp"
+         },
+         "C_Cpp.errorSquiggles": "disabled",
+         "cmake.ignoreCMakeListsMissing": true
+}
