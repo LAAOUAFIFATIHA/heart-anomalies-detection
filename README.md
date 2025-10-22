@@ -34,7 +34,7 @@
 
 
 <br> <br><p align="center">
-  <img src="images_T/dog05-04-2025_18-26-03.png" alt="yoloV8" width="45%" />
+  <img src="img/DHT22.png" alt="DHT22" width="45%" />
   <img src="images_Tilon04-04-2025_11-30-37.png" alt="yoloV8" width="45%" />
 </p>
 
