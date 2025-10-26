@@ -14,7 +14,9 @@
 </p>
 
 ### About the prject
+ChatGPT said:
 
+A smart T-shirt powered by TinyML is an intelligent wearable that integrates small, low-power machine learning models directly into the fabric or an attached microcontroller. It can collect and analyze data in real time from embedded sensors such as heart rate, temperature, motion, or posture sensors without needing constant connection to the cloud.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
