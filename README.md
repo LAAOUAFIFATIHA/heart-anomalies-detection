@@ -10,7 +10,7 @@
 
 
 <p align="center">
-  <img src="img/smartT.png" alt="smart T_shirt" style="width:900px; height:20;" />
+  <img src="img/smartT.png" alt="smart T_shirt" style="width:900px; height:200;" />
 </p>
 
 ### About the prject
