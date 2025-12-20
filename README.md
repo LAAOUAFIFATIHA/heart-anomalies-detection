@@ -1,4 +1,4 @@
-#  Intelligent Glasses Project
+#  Smart T-Shirt Project
 
 <a name="readme-top"></a>
 
