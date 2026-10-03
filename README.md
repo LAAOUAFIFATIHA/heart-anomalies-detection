@@ -42,7 +42,7 @@
 
 <h2>🏗️ System Architecture</h2>
 <p align="center">
-  <img src="img/architecture.png" alt="Global architecture of the project" width="80%" />
+  <img src="img/global_sstr.png" alt="Global architecture of the project" width="80%" />
 </p>
 <ol>
   <li>The microcontroller reads the sensors: <b>AD8232</b> (ECG), <b>gyroscope</b> (motion) and <b>DHT22</b> (temperature and humidity).</li>
@@ -54,7 +54,7 @@
 
 <h2>🧠 TinyML Workflow</h2>
 <p align="center">
-  <img src="img/tinyml_workflow.png" alt="TinyML project structure" width="70%" />
+  <img src="img/TinyML.png" alt="TinyML project structure" width="70%" />
 </p>
 <p>
   The neural network is trained with <b>TensorFlow</b>, converted to <b>TFLite</b>, then converted to a
@@ -78,7 +78,7 @@
 
 <h3>Wiring</h3>
 <p align="center">
-  <img src="img/wiring_diagram.png" alt="Wiring of the sensors to the ESP32" width="70%" />
+  <img src="img/WIRING SENSOR.png" alt="Wiring of the sensors to the ESP32" width="70%" />
 </p>
 
 <table>
@@ -93,7 +93,7 @@
 </table>
 
 <p align="center">
-  <img src="img/lcd_esp32.png" alt="Display connected to the ESP32" width="45%" />
+  <img src="img/DESPLAY-ESP.png" alt="Display connected to the ESP32" width="45%" />
 </p>
 
 <h2>📊 Data Acquisition &amp; Preprocessing</h2>
@@ -104,7 +104,7 @@
 </p>
 
 <p align="center">
-  <img src="img/ecg_signal.png" alt="ECG signal and its intervals" width="55%" />
+  <img src="img/ECG_signal.png" alt="ECG signal and its intervals" width="55%" />
 </p>
 
 <table>
@@ -124,12 +124,12 @@
 </ul>
 
 <p align="center">
-  <img src="img/sensor_data_test.png" alt="Sensor data test" width="60%" />
+  <img src="img/SENSORS DATA.png" alt="Sensor data test" width="60%" />
 </p>
 
 <h2>🤖 Model 1: Neural Network on the ESP32</h2>
 <p align="center">
-  <img src="img/local_model.png" alt="Local model pipeline" width="70%" />
+  <img src="img/local model.png" alt="Local model pipeline" width="70%" />
 </p>
 <ul>
   <li><b>Architecture:</b> 10 inputs, 3 layers, ReLU in the first layer, sigmoid output (binary classification: normal / anomaly).</li>
@@ -139,7 +139,7 @@
   <li><b>Result:</b> real-time prediction on the ESP32, and the LED lights up when an anomaly is detected.</li>
 </ul>
 <p align="center">
-  <img src="img/esp32_project_structure.png" alt="Project structure on the ESP32" width="45%" />
+  <img src="img/p_str_inesp32.png" alt="Project structure on the ESP32" width="45%" />
 </p>
 
 <h2>🌐 Model 2: K-Means + KNN on the External Server</h2>
@@ -155,8 +155,8 @@
   more varied dataset.
 </p>
 <p align="center">
-  <img src="img/realtime_ecg.png" alt="Real-time ECG data" width="55%" />
-  <img src="img/external_model_test.png" alt="External model test, row predicted normal (0)" width="40%" />
+  <img src="img/ECG_sign_2.png" alt="Real-time ECG data" width="55%" />
+  <img src="img/external model p.png" alt="External model test, row predicted normal (0)" width="40%" />
 </p>
 
 <h2>📈 Visualization with Grafana</h2>
@@ -165,14 +165,12 @@
   (1 = moving, 0 = still), temperature and humidity, and the predictions of both models.
   A red indicator appears when an anomaly is detected.
 </p>
+
 <p align="center">
-  <img src="img/grafana_ecg.png" alt="ECG visualisation in Grafana" width="75%" />
+  <img src="img/ECG_sign.png" alt="Temperature and humidity in Grafana" width="75%" />
 </p>
 <p align="center">
-  <img src="img/grafana_temp_humidity.png" alt="Temperature and humidity in Grafana" width="75%" />
-</p>
-<p align="center">
-  <img src="img/grafana_predictions.png" alt="Model predictions in Grafana" width="75%" />
+  <img src="img/external model p.png" alt="Model predictions in Grafana" width="75%" />
 </p>
 
 <h3>On-device display</h3>
@@ -181,7 +179,7 @@
   ESP32, the response is very fast.
 </p>
 <p align="center">
-  <img src="img/lcd_prediction.png" alt="Prediction on the display" width="45%" />
+  <img src="img/VISUALISE IN THE DESOL.jpg" alt="Prediction on the display" width="45%" />
 </p>
 
 <h2>🛠️ Built With</h2>
