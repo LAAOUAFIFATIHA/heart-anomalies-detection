@@ -1,7 +1,7 @@
 <h1 align="center" id="readme-top">Smart T-Shirt: TinyML Heart Anomaly Detection</h1>
 
 <p align="center">
-  <img src="img/smartT.png" alt="Smart T-Shirt design" width="60%" />
+  <img src="img/smartT.png" alt="Smart T-Shirt design" width="30%" />
 </p>
 
 <p align="center">
